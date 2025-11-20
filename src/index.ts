@@ -22,7 +22,7 @@ const app = express()
 app.use(express.json())
 app.use(
   cors({
-    origin: ["http://localhost:5173"], // you must assing fruntend port number (ex:- 5173)
+    origin: ["http://rad-72-deploy-fe-x24z.vercel.app","http://localhost:5173"], // you must assing fruntend port number (ex:- 5173)
     methods: ["GET", "POST", "PUT", "DELETE"] // optional
   })
 )
